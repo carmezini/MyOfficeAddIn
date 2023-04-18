@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:900i');
+
+
+html, body {
+    height: 100%;
+    background: #fff;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main-container {
+    padding: 1rem;
+}
+
+.signin-image {
+    text-align: center;
+}
+
+.message-instruction {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.card-form {
+    margin-top: 1rem;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 1px rgb(175, 172, 172);
+    border-radius: 0.5rem;
+    padding: 16px;
+}
+
+.input-container {
+    padding-top: 15px;
+}
+
+.input-box-signin{
+    display: block;
+    padding-left: 20px;
+    font-weight: 500;
+    width: 100%;
+    margin-top: 10px;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid #CA8110
+}
+
+.input-box-signin:focus {
+    outline: 1px solid #CA8110;
+    outline-width: 1px;
+    border-radius: 3px;
+}
+
+.container-button-signin {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.signin-button {
+    width: 100%;
+    margin-top: 10px;
+    background-color: #CA8110;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px;
+    border: 0;
+    cursor: pointer;
+}
+
+.signin-button:hover {
+    background-color: #eb9532;
+}
+
+.signin-button:active {
+    background-color: #eb9532;
+    box-shadow: 1 1 2px #666;
+    transform: translateY(2px);
+}
+
+.container-button-signup {
+    margin-top: 30px;
+}
+
+.clickme-button {
+    padding-top: 20px;
+} a {
+    cursor: pointer;
+    color: #eb9532;
+} a:hover {
+    color: #eb9532;
+}
